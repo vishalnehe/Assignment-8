@@ -1,0 +1,82 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: block;
+}
+
+form {
+    display: grid;
+    padding: 1em;
+    background: #f9f9f9;
+    max-width: 500px;
+}
+
+label{
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+    font-weight: bold;
+}
+
+.error {
+    padding: 0 0 15px 0;
+    color:red;
+}
+
+input[type=text]{
+    font-size: 20px;
+    height:35px;
+    padding: 5px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    padding: 1em;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width:150px;
+  }
+
+th {
+    background-color:rgb(27, 121, 9);
+}
+tr:nth-child(even){
+    background-color: #b4ebc1;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.button, #add {
+    background-color:rgb(27, 121, 9);
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: left;
+    margin: 0px 200px;
+    border-radius: 10px;
+  }
+
+.button:hover, #add:hover{
+    background-color: darkolivegreen;
+}
